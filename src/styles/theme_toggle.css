@@ -1,0 +1,97 @@
+@import "https://unpkg.com/open-props/easings.min.css";
+
+:root {
+    --icon-fill: rgb(0, 126, 0);
+    --icon-fill-hover: rgb(0, 203, 0);
+}
+
+.theme-toggle {
+    --size: 2rem;
+
+    background: none;
+    border: none;
+    padding: 0;
+
+    inline-size: var(--size);
+    block-size: var(--size);
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    outline-offset: 5px;
+
+    & > svg {
+        inline-size: 100%;
+        block-size: 100%;
+        stroke-linecap: round;
+    }
+
+    @media (hover: none) {
+        --size: 48px;
+    }
+}
+
+.sun-and-moon {
+
+    & > :is(.moon, .sun, .sun-beams) {
+        transform-origin: center center;
+    }
+
+    & > :is(.moon, .sun) {
+        fill: var(--icon-fill);
+
+        &:is(:hover, :focus-visible) {
+            fill: var(--icon-fill-hover);
+        }
+    }
+
+    & > .sun-beams {
+        stroke: var(--icon-fill);
+        stroke-width: 2px;
+
+        &:is(:hover, :focus-visible) {
+            stroke: var(--icon-fill-hover);
+        }
+    }
+
+    & > .sun {
+        transition: transform 0.5s var(--ease-elastic-3);
+    }
+
+    & > .sun-beams {
+        transition: transform 0.5s var(--ease-elastic-4),
+            opacity 0.5s var(--ease-3);
+    }
+
+    &[data-theme="dark"] {
+        & > .sun {
+            transform: scale(1.75);
+            transition-timing-function: var(--ease-3);
+            transition-duration: 0.25s;
+        }
+
+        & > .sun-beams {
+            transform: rotateZ(-25deg);
+            opacity: 0;
+            transition-duration: 0.15s;
+        }
+
+        & > .moon > circle {
+            transition-delay: 0.25s;
+            transition-duration: 0.5s;
+        }
+
+        & .moon > circle {
+            transform: translateX(-7px);
+            transition: transform 0.25s var(--ease-out-5);
+    
+            @supports (cx: 1) {
+                transform: translateX(0);
+                cx: 17;
+                transition: cx 0.25s var(--ease-out-5);
+            }
+        }
+    }
+}

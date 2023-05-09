@@ -1,0 +1,122 @@
+:root {
+    --code-html: rgb(3, 162, 255);
+    --code-css: rgb(255, 74, 3);
+    --code-js: rgb(226, 19, 209);
+    --code-php: rgb(153, 0, 255);
+    --code-python: rgb(3, 182, 206);
+}
+
+table.liner {
+    display: table;
+    border-spacing: 0;
+    background-color: rgb(255, 255, 255);
+    color: #333333;
+    margin: 40px auto;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-collapse: separate;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    word-break: break-word;
+    width: 96%;
+    max-width: 800px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0 0 8px #6e6d6d;
+        -moz-box-shadow: 0 0 8px #6e6d6d;
+            box-shadow: 0 0 8px #6e6d6d;
+}
+
+table.liner thead td {
+    position: relative;
+    height: 20px;
+    padding: 7px;
+    border-bottom: 2px solid #cccccc;
+}
+
+table.liner thead span {
+    text-transform: uppercase;
+    font-size: 12px;
+    user-select: none;
+}
+
+table.liner thead span.lang-declare {
+    float: left;
+}
+
+table.liner thead span.other {
+    float: right;
+    cursor: pointer;
+}
+
+table.liner thead i {
+    margin-right: 3px;
+    font-size: 12px;
+}
+
+table.liner thead td {
+    width: auto;
+}
+
+table.liner tbody {
+    display: block;
+    max-height: 2000px;
+    overflow-y: scroll;
+}
+
+table.liner tr {
+    line-height: normal;
+}
+
+table.liner .line td {
+    vertical-align: top;
+    padding: 4px;
+}
+
+table.liner .line td.line-content {
+    padding: 4px 10px;
+}
+
+table.liner .line td:first-of-type {
+    background-color: #e6e6e6;
+    color: #777777;
+    padding: 2px 3px;
+    user-select: none;
+}
+
+table.liner .line td:last-of-type {
+    font-weight: 100;
+}
+
+table.liner tfoot td {
+    border-top: 2px solid rgb(151, 151, 151);
+    padding: 4px;
+}
+
+table.liner tfoot img {
+    height: 20px;
+    float: left;
+    margin-right: 4px;
+    user-select: none;
+}
+
+table.liner tfoot span {
+    float: left;
+    vertical-align: center;
+    line-height: 20px;
+    font-size: 12.5px;
+    user-select: none;
+}
+
+table.liner.js .line td:first-of-type {
+    border-right: 2px solid var(--theme-js);
+}
+
+table.liner.html .line td:first-of-type {
+    border-right: 2px solid var(--theme-html);
+}
+
+table.liner.css .line td:first-of-type {
+    border-right: 2px solid var(--theme-css);
+}

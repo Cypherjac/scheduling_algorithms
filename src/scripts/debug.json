@@ -1,0 +1,2983 @@
+{
+    "0": {
+        "state": {
+            "status": "running",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 0
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 0,
+                "remaining_time": 20,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 0,
+                "remaining_time": 20,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "1": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 1
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 1,
+                "remaining_time": 19,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 1,
+                "remaining_time": 19,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            }
+        ],
+        "out_queue": []
+    },
+    "2": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 2
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 2,
+                "remaining_time": 18,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 2,
+                "remaining_time": 18,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "3": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 3
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 3,
+                "remaining_time": 17,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 3,
+                "remaining_time": 17,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "4": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 4
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 4,
+                "remaining_time": 16,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 4,
+                "remaining_time": 16,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "5": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 5
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 5,
+                "remaining_time": 15,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 5,
+                "remaining_time": 15,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "6": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 6
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 6,
+                "remaining_time": 14,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 6,
+                "remaining_time": 14,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "7": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 7
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 7,
+                "remaining_time": 13,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 7,
+                "remaining_time": 13,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "8": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 8
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 8,
+                "remaining_time": 12,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 8,
+                "remaining_time": 12,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "9": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 9
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 9,
+                "remaining_time": 11,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 9,
+                "remaining_time": 11,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "10": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 10
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 10,
+                "remaining_time": 10,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 10,
+                "remaining_time": 10,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "11": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 11
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 11,
+                "remaining_time": 9,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 11,
+                "remaining_time": 9,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "12": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 12
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 12,
+                "remaining_time": 8,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 12,
+                "remaining_time": 8,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "13": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 13
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 13,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 13,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "14": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 14
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 14,
+                "remaining_time": 6,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 14,
+                "remaining_time": 6,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "15": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 15
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 15,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 15,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "16": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 16
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 16,
+                "remaining_time": 4,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 16,
+                "remaining_time": 4,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "17": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 17
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 17,
+                "remaining_time": 3,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 17,
+                "remaining_time": 3,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "18": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 18
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 18,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 18,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "19": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 19
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 19,
+                "remaining_time": 1,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 19,
+                "remaining_time": 1,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": []
+    },
+    "20": {
+        "state": {
+            "status": "processing P4",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 20
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 0,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": [
+            "P4"
+        ]
+    },
+    "21": {
+        "state": {
+            "status": "processing P3",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 21
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 1,
+                "remaining_time": 1,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": -1,
+                "status": "running"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 1,
+                "remaining_time": 1,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": [
+            "P4"
+        ]
+    },
+    "22": {
+        "state": {
+            "status": "processing P3",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 22
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 0,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": [
+            "P3",
+            "P4"
+        ]
+    },
+    "23": {
+        "state": {
+            "status": "processing P1",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 23
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 1,
+                "remaining_time": 4,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 1,
+                "remaining_time": 4,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": [
+            "P3",
+            "P4"
+        ]
+    },
+    "24": {
+        "state": {
+            "status": "processing P1",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 24
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 2,
+                "remaining_time": 3,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 2,
+                "remaining_time": 3,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": [
+            "P3",
+            "P4"
+        ]
+    },
+    "25": {
+        "state": {
+            "status": "processing P1",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 25
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 3,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 3,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": [
+            "P3",
+            "P4"
+        ]
+    },
+    "26": {
+        "state": {
+            "status": "processing P1",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 26
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 4,
+                "remaining_time": 1,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 4,
+                "remaining_time": 1,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": [
+            "P3",
+            "P4"
+        ]
+    },
+    "27": {
+        "state": {
+            "status": "processing P1",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 27
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 5,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": 27,
+                "status": "terminated"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 0,
+                "remaining_time": 7,
+                "initial_entry": -1,
+                "actual_entry": -1,
+                "completion_time": -1,
+                "status": "ready"
+            }
+        ],
+        "out_queue": [
+            "P1",
+            "P3",
+            "P4"
+        ]
+    },
+    "28": {
+        "state": {
+            "status": "processing P2",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 28
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 1,
+                "remaining_time": 6,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 5,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": 27,
+                "status": "terminated"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 1,
+                "remaining_time": 6,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            }
+        ],
+        "out_queue": [
+            "P1",
+            "P3",
+            "P4"
+        ]
+    },
+    "29": {
+        "state": {
+            "status": "processing P2",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 29
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 2,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 5,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": 27,
+                "status": "terminated"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 2,
+                "remaining_time": 5,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            }
+        ],
+        "out_queue": [
+            "P1",
+            "P3",
+            "P4"
+        ]
+    },
+    "30": {
+        "state": {
+            "status": "processing P2",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 30
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 3,
+                "remaining_time": 4,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 5,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": 27,
+                "status": "terminated"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 3,
+                "remaining_time": 4,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            }
+        ],
+        "out_queue": [
+            "P1",
+            "P3",
+            "P4"
+        ]
+    },
+    "31": {
+        "state": {
+            "status": "processing P2",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 31
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 4,
+                "remaining_time": 3,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 5,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": 27,
+                "status": "terminated"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 4,
+                "remaining_time": 3,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            }
+        ],
+        "out_queue": [
+            "P1",
+            "P3",
+            "P4"
+        ]
+    },
+    "32": {
+        "state": {
+            "status": "processing P2",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 32
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 5,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 5,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": 27,
+                "status": "terminated"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 5,
+                "remaining_time": 2,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            }
+        ],
+        "out_queue": [
+            "P1",
+            "P3",
+            "P4"
+        ]
+    },
+    "33": {
+        "state": {
+            "status": "processing P2",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 33
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 6,
+                "remaining_time": 1,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 5,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": 27,
+                "status": "terminated"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 6,
+                "remaining_time": 1,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": -1,
+                "status": "running"
+            }
+        ],
+        "out_queue": [
+            "P1",
+            "P3",
+            "P4"
+        ]
+    },
+    "34": {
+        "state": {
+            "status": "processing completed",
+            "cpu_idle": 0,
+            "expected_active_time": 34,
+            "actual_active_time": 34
+        },
+        "processes_state": [
+            {
+                "process": "P4",
+                "entry_time": 0,
+                "burst_time": 20,
+                "executed": 20,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 0,
+                "completion_time": 20,
+                "status": "terminated"
+            },
+            {
+                "process": "P2",
+                "entry_time": 2,
+                "burst_time": 7,
+                "executed": 7,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 27,
+                "completion_time": 34,
+                "status": "terminated"
+            },
+            {
+                "process": "P1",
+                "entry_time": 3,
+                "burst_time": 5,
+                "executed": 5,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 22,
+                "completion_time": 27,
+                "status": "terminated"
+            },
+            {
+                "process": "P3",
+                "entry_time": 13,
+                "burst_time": 2,
+                "executed": 2,
+                "remaining_time": 0,
+                "initial_entry": -1,
+                "actual_entry": 20,
+                "completion_time": 22,
+                "status": "terminated"
+            }
+        ],
+        "processes_queue": [],
+        "out_queue": [
+            "P2",
+            "P1",
+            "P3",
+            "P4"
+        ]
+    }
+}

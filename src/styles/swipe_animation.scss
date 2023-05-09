@@ -1,0 +1,97 @@
+$ease-out-quint: cubic-bezier(0.230, 1.000, 0.720, 1.000);
+$default-border: #555;
+
+.menu-indicator {
+    position: relative;
+    z-index: 4;
+    text-align: center;
+
+    .indicator-wrapper {
+        transform: translate3d(0, 0, 0);
+        width: 150px;
+        margin: 0 auto;
+
+        .indicator-cursor {
+            width: 25px;
+            //height:40px;
+            position: absolute;
+            top: 1.75em;
+            z-index: 5;
+            // background: #F7F6F3;
+            animation: cursor-animation 1.2s $ease-out-quint infinite;
+
+            @keyframes cursor-animation {
+                0% {
+                    left: 100px;
+                    transform: rotate(30deg);
+                }
+
+                100% {
+                    left: 40px;
+                    transform: rotate(0deg);
+                }
+            }
+        }
+
+        .box-wrapper {
+            width: 150px;
+            overflow: hidden;
+            height: 50px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            $widthOfBox: 3em;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: none;
+                background: radial-gradient(ellipse at center, rgba(89, 89, 89, 0.208) 0%, #000000 70%);
+                z-index: 2;
+            }
+
+
+            .box-outer {
+                position: relative;
+                top: calc(50% - 1em);
+                animation: box-animation 1.2s $ease-out-quint infinite;
+
+                @keyframes box-animation {
+                    0% {
+                        left: 0px;
+                    }
+
+                    100% {
+                        left: -5em;
+                    }
+                }
+            }
+
+            .box {
+                position: absolute;
+                width: $widthOfBox;
+                height: 2em;
+                border-radius: 3px;
+                border: 1px solid $default-border;
+
+                @for $i from 0 through 3 {
+                    &:nth-of-type(#{$i}) {
+                        left: 4.25em * $i;
+                    }
+                }
+            }
+        }
+
+        .box-wrapper.alt {
+            &:before {
+                background: transparent;
+            }
+        }
+
+    }
+
+}

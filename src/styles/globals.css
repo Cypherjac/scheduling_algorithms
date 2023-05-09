@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "https://unpkg.com/open-props/easings.min.css";
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-rgb: 235, 235, 235;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --foreground-rgb: 0, 0, 0;
+        --background-rgb: 235, 235, 235;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 235, 235, 235;
+        --background-rgb: 10, 10, 10;
+    }
+}
+
+body, nav {
+    transition: color, background-color 1s ease;
+}
+
+body {
+    color: var(rgb(--foreground-rgb));
+    background-color: var(rgb(--background-rgb));
+}
+
+:root,
+body,
+#__next {
+    @apply flex flex-col flex-1;
+    @apply h-auto min-h-full w-screen max-w-full;
+    @apply m-0 p-0;
+    @apply overflow-y-auto overflow-x-hidden;
+}
+
+#simulate-button:disabled, #process-add:disabled {
+    background-color: #888888;
+    cursor: not-allowed;
+    user-select: none;
+}
+
+.indefspin {
+    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 1000px){
+    .swiper-auto::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 75px;
+        height: 100%;
+        top: 0;
+        left: -5px;
+        background: linear-gradient(to left, transparent, #000000);
+        z-index: 3;
+    }
+
+    .swiper-auto::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 75px;
+        height: 100%;
+        top: 0;
+        right: -5px;
+        background: linear-gradient(to right, transparent, #000000);
+        z-index: 3;
+    }
+}
